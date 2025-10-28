@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fortnote</string>
+    <string name="todo">TODO</string>
+    <string name="create_new_note">Create New Note</string>
+</resources>
