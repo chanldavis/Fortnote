@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Fortnote</string>
-    <string name="todo">TODO</string>
-    <string name="create_new_note">Create New Note</string>
+    <string name="todo">Create new note</string>
+    <string name="back">Back</string>
+    <string name="note_title">Note Title</string>
+    <string name="write_your_note_here">Write your note here...</string>
+    <string name="b">B</string>
+    <string name="i">I</string>
+    <string name="u">U</string>
 </resources>
