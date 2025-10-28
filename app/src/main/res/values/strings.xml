@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Fortnote Ultra</string>
+    <string name="app_name">My Application</string>
+    <string name="go_back">Go back</string>
+    <string name="back">Back</string>
+    <string name="b">B</string>
+    <string name="i">I</string>
+    <string name="u">U</string>
+    <string name="note_title">Note Title</string>
+    <string name="write_your_note_here">Write your note here...</string>
 </resources>
