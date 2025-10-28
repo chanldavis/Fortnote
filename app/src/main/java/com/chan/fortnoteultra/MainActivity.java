@@ -1,4 +1,4 @@
-package com.chan.fortnoteultra;
+package com.example.fortnote;
 
 import android.os.Bundle;
 
