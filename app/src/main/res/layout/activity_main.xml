@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main" android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <!-- App Title -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
@@ -17,20 +15,21 @@
         android:layout_marginBottom="24dp"
         android:text="Fortnote"
         android:textColor="@android:color/black"
-        android:textSize="28sp"
+        android:textSize="32sp"
         android:textStyle="bold" />
 
-    <!-- Include the button layout -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:backgroundTint="@android:color/holo_blue_dark"
+        app:tint="@android:color/white"
+        app:maxImageSize="40dp"
+        />
 
-
-</LinearLayout>
-
-
+</RelativeLayout>
