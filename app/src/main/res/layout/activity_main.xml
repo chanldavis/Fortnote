@@ -30,6 +30,7 @@
         app:backgroundTint="@android:color/holo_blue_dark"
         app:tint="@android:color/white"
         app:maxImageSize="42dp"
+        app:fabCustomSize="64dp"
         />
 
 </RelativeLayout>
